@@ -1,0 +1,117 @@
+/* we can call it as default css boilerplate */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+
+/* Targating any element here as follow, use # for id and . for classes */
+img{
+    width: 30%;
+    aspect-ratio: 3/2 ;
+    object-fit: contain;
+    mix-blend-mode: color-burn;
+}
+
+#ch1{
+    color: blue;
+}
+#ch2{
+    color: red;
+}
+
+/* Targating div with the id main */
+#main{
+width: 190px;
+height: 250px;
+background-color: rebeccapurple;
+
+
+/* 20px margin add from left right top bottom */
+/* margin: 20px;  */
+
+/* margin: top right bottom left; */
+/* margin:10px 10px 10px 10px ; */
+
+/* margin: (top bottom) (left right) */
+/* margin: 20px 15px; */
+
+/* padding: 20px; */
+}
+
+/* MArgin - Space between two element 
+   padding - space inside one element */
+
+
+#main2{
+    height: 100%;
+    width: 100%;
+    background-color:aquamarine;
+    background-image: url(https://images.unsplash.com/photo-1711574786543-0078cf358b50?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+}
+
+#box1{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+#box2{
+    position: absolute;
+    /* top,left works only if we use position */
+    /* top: 20;
+    left: 20%; */
+    width: 110px;
+    height: 100px;
+    background-color: red;
+}
+#box3{
+    width: 120px;
+    height: 120px;
+    background-color: yellow;
+}
+
+
+#box{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background-color: brown;
+}
+#innerbox{
+    position: absolute;
+    left: 40%;
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+
+#Oterbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    background-color: grey;
+}
+#chilld1{
+    width: 100px;
+    height: 100px;
+    background-color: rebeccapurple;
+}
+#chilld2{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+#chilld3{
+    width: 100px;
+    height: 100px;
+    background-color: yellowgreen;
+}
